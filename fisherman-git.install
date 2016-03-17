@@ -1,0 +1,5 @@
+pre_remove() {
+  cd ~/.local/share/fisherman/ && make uninstall &&\
+  cd .. &&\
+  rm -rf fisherman
+}
